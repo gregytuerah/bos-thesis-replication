@@ -14,7 +14,7 @@ Data/Processed/*
 # Intermediate intensity extract generated from the school-facility file.
 Output/Tables/main_model_intensity_2007_province.csv
 
-# Locally generated drafting and presentation material.
+# Local drafting and presentation exports are not included in the replication package.
 Output/Drafts/
 Output/Poster/
 Output/Slides/

@@ -14,7 +14,9 @@ school operational grant program.
 
 ## Research Question
 
-Within the same family, do children with greater potential exposure to Indonesia’s BOS program attain more schooling and have a higher probability of reaching senior high school than their less-exposed siblings, especially in provinces with stronger measured BOS intensity?
+Is greater potential exposure to Indonesia's BOS program associated with higher
+educational attainment among siblings, particularly in provinces with stronger
+measured implementation intensity?
 
 The analysis uses Indonesia Family Life Survey (IFLS) data and compares
 siblings from the same origin household who differed in potential BOS exposure
@@ -87,25 +89,20 @@ install.packages(
 )
 ```
 
+Run the numbered scripts in order:
+
 ```bash
-Rscript Code/run_main_thesis_pipeline.R
+Rscript Code/01_Identification.R
+Rscript Code/01b_Controls.R
+Rscript Code/02_Balance.R
+Rscript Code/03_Regression.R
+Rscript Code/04_HTE-Robustness.R
+Rscript Code/05_Manuscript_Figures.R
 ```
 
-The core pipeline runs:
-
-```text
-01_Identification.R
-01b_Controls.R
-02_Balance.R
-03_Regression.R
-04_Manuscript_Figures.R
-HTE-Robustness.R
-99_Validate_Reported_Results.R
-```
-
-The pipeline regenerates the reported empirical tables and manuscript figures.
-The final validation script checks that the regenerated principal estimates and
-sample sizes match the results reported in the paper.
+Together, these scripts regenerate the reported empirical tables and manuscript
+figures. The expected principal estimates and sample sizes are summarized in
+[`docs/expected_results.md`](docs/expected_results.md).
 
 ## Reported Outputs
 
@@ -114,7 +111,7 @@ sample sizes match the results reported in the paper.
 - [Senior-high sensitivity checks](Output/Tables/robustness_sensitivity_hs.tex)
 - [Heterogeneous treatment effects](Output/Tables/hte_main_hs.tex)
 - [Balance table](Output/Tables/table1_balance.tex)
-- [Expected benchmark results](docs/expected_results.md)
+- [Reported benchmark results](docs/expected_results.md)
 - [Validated software environment](docs/software_environment.md)
 
 ## Citation

@@ -11,12 +11,10 @@
    cohort.
 4. `Code/03_Regression.R` estimates the principal household fixed-effects
    models for senior-high attainment and completed years of schooling.
-5. `Code/04_Manuscript_Figures.R` produces the analytic-sample origin map and
-   BOS implementation-intensity map reported in the manuscript.
-6. `Code/HTE-Robustness.R` produces heterogeneity analyses, sensitivity
+5. `Code/04_HTE-Robustness.R` produces heterogeneity analyses, sensitivity
    estimates, and the heterogeneity figure.
-7. `Code/99_Validate_Reported_Results.R` checks generated results against
-   reported benchmark values.
+6. `Code/05_Manuscript_Figures.R` produces the analytic-sample origin map and
+   BOS implementation-intensity map reported in the manuscript.
 
 ## Design Summary
 
@@ -36,3 +34,6 @@
 `table1_BOS_allocation.tex` and `appendix_variable_construction.tex` are
 manuscript-source tables describing policy background and variable definitions;
 they are not regression outputs.
+
+The principal reported estimates and sample sizes are summarized in
+`docs/expected_results.md` for comparison after running the scripts.

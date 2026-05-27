@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Tuerah"
     given-names: "Gregy"
+    affiliation: "Harris School of Public Policy, University of Chicago"
 year: 2026
 repository-code: "https://github.com/gregytuerah/bos-thesis-replication"
 license: MIT

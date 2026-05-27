@@ -38,10 +38,10 @@ Data/Raw/
 
 ## Files Produced Locally
 
-Running `Rscript Code/run_main_thesis_pipeline.R` constructs intermediate
-record-level analysis files in `Data/Processed/`. That directory is excluded
-from version control because the files are derived from IFLS individual and
-household records.
+Running the numbered scripts in `Code/` constructs intermediate record-level
+analysis files in `Data/Processed/`. That directory is excluded from version
+control because the files are derived from IFLS individual and household
+records.
 
 The repository includes only reported tables, figures, and manuscript files,
 not IFLS raw files or record-level derived data.

@@ -25,6 +25,6 @@ scales 1.4.0
 stringr 1.5.2
 ```
 
-The pipeline dependency list is also declared in `DESCRIPTION`. Because IFLS
-data are accessed locally under RAND's public-use terms, automated cloud
-execution is not enabled for this repository.
+The dependency list is also declared in `DESCRIPTION`. Because IFLS data are
+accessed locally under RAND's public-use terms, automated cloud execution is
+not enabled for this repository.

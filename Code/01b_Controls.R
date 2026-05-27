@@ -374,4 +374,4 @@ est_with_controls <- est_with_controls %>%
 saveRDS(est_with_controls, "Data/Processed/est_with_controls.rds")
 
 message("Saved Data/Processed/est_with_controls.rds")
-message("Next: Run 02_Balance.R, 03_Regression.R, and HTE-Robustness.R")
+message("Next: Run 02_Balance.R, 03_Regression.R, 04_HTE-Robustness.R, and 05_Manuscript_Figures.R")
