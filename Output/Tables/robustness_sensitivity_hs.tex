@@ -1,0 +1,25 @@
+\begin{table}[H]
+\centering
+\caption{Sensitivity Checks for Senior-High Attainment\label{tab:robust_hs}}
+\footnotesize
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+& (1) Baseline & (2) Narrow Window & (3) Older Cohorts Only & (4) Top-Tercile Intensity \\
+\midrule
+Exposure (BOS years) & 0.003 & 0.010 & 0.009 & 0.005 \\
+& (0.004) & (0.009) & (0.006) & (0.004) \\
+Exposure $\times$ Higher-Intensity Indicator & 0.010* & -0.005 & 0.005 & 0.007 \\
+& (0.006) & (0.012) & (0.009) & (0.006) \\
+Female & 0.044** & 0.012 & 0.042* & 0.043** \\
+& (0.019) & (0.029) & (0.024) & (0.019) \\
+Observations & 2,088 & 851 & 1,322 & 2,088 \\
+Household FE & Yes & Yes & Yes & Yes \\
+Controls & Female only & Female only & Female only & Female only \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{0.5em}
+\parbox{0.95\linewidth}{\footnotesize Notes: All columns use the preferred 2014 household fixed-effects specification for the senior-high attainment indicator, with standard errors clustered at the household level. Column (2) restricts the sample to birth cohorts 1990--1992 and 1994--1995, excluding 1993 and the outer cohorts. Column (3) restricts the sample to birth cohorts 1988--1995 to reduce concern that the youngest cohorts had insufficient time to complete senior high school by 2014. Columns (1)--(3) define high intensity using the province-level 2007 median split of the BOS intensity proxy. Column (4) instead defines high intensity as the top tercile of the 2007 province intensity distribution. * $p<0.10$, ** $p<0.05$, *** $p<0.01$.}
+\end{table}

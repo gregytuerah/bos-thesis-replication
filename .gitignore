@@ -1,0 +1,30 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# RAND IFLS data and derived record-level analysis files are never public.
+Data/Raw/*
+!Data/Raw/.gitkeep
+Data/Processed/*
+!Data/Processed/.gitkeep
+*.rds
+*.dta
+
+# Intermediate intensity extract generated from the school-facility file.
+Output/Tables/main_model_intensity_2007_province.csv
+
+# Locally generated drafting and presentation material.
+Output/Drafts/
+Output/Poster/
+Output/Slides/
+
+# LaTeX build artifacts.
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

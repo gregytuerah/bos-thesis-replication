@@ -1,0 +1,9 @@
+"panel","variable","mean_0","mean_1","diff","p_value","norm_diff"
+"Panel A. Baseline covariates","Female",0.47,0.483,0.012,0.567,0.025
+"Panel A. Baseline covariates","Urban",0.443,0.456,0.013,0.539,0.027
+"Panel A. Baseline covariates","Log per-capita exp.",12.765,12.78,0.015,0.596,0.024
+"Panel A. Baseline covariates","HH size",6.373,6.354,-0.019,0.836,-0.009
+"Panel A. Baseline covariates","Female-headed HH",0.113,0.113,0,0.997,0
+"Panel A. Baseline covariates","Max parent educ.",7.985,8.092,0.107,0.568,0.025
+"Panel B. Design variables","BOS intensity share",0.247,0.245,-0.001,0.796,-0.011
+"Panel B. Design variables","High intensity",0.535,0.525,-0.01,0.643,-0.02

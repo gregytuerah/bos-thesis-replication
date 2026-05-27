@@ -1,0 +1,40 @@
+\begin{table}[!h]
+\centering
+\caption{Main Model: Effect on Years of Education \label{tab:main_years}}
+\begin{threeparttable}
+\footnotesize
+\resizebox{\linewidth}{!}{%
+\begin{tabular}[t]{@{}lcccc}
+\toprule
+ & (1) Bin Exp x Cont Int & (2) Bin Exp x Bin Int & (3) BOS Years x Cont Int & (4) BOS Years x Bin Int\\
+\midrule
+More Exposure (younger cohort) & -0.643*** & -0.754*** &  & \\
+ & (0.186) & (0.134) &  & \\
+More Exposure x BOS Intensity (2007 share) & -0.464 &  &  & \\
+ & (0.663) &  &  & \\
+More Exposure x High Intensity &  & -0.005 &  & \\
+ &  & (0.183) &  & \\
+Exposure (BOS years) &  &  & -0.116*** & -0.140***\\
+ &  &  & (0.036) & (0.026)\\
+Exposure (BOS years) x BOS Intensity (2007 share) &  &  & -0.113 & \\
+ &  &  & (0.129) & \\
+Exposure (BOS years) x High Intensity &  &  &  & -0.006\\
+ &  &  &  & (0.036)\\
+Female & 0.379*** & 0.378*** & 0.381*** & 0.378***\\
+ & (0.124) & (0.124) & (0.124) & (0.124)\\
+Num.Obs. & 2088 & 2088 & 2088 & 2088\\
+R2 & 0.763 & 0.763 & 0.764 & 0.764\\
+R2 Adj. & 0.587 & 0.587 & 0.588 & 0.588\\
+Control Mean (treated = 0) & 10.860 & 10.860 & 10.860 & 10.860\\
+Household FE & Yes & Yes & Yes & Yes\\
+Controls & Female only & Female only & Female only & Female only\\
+SE Cluster & Household & Household & Household & Household\\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}[para]
+\item \textit{Notes: }
+\item Cleaned years-of-education models: all columns use household fixed effects and female as the only control. Binary intensity = 2007 median split. Continuous intensity = raw province-level 2007 BOS intensity share. Exposure in columns (3)-(4) is raw BOS years (not z-score). Control mean reports the lower-exposure cohort mean within the 2014 estimation sample. All standard errors are cluster-robust at household level.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

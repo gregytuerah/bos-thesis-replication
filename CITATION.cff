@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the accompanying thesis manuscript."
+title: "Longer Exposure, Better Outcomes: Replication Package for Evidence from Indonesia's BOS Program"
+type: software
+authors:
+  - family-names: "Tuerah"
+    given-names: "Gregy"
+year: 2026
+repository-code: "https://github.com/gregytuerah/bos-ifls-thesis-replication"
+license: MIT

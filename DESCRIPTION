@@ -1,0 +1,27 @@
+Package: bos.ifls.thesis.replication
+Type: Project
+Title: Replication Package for Longer Exposure, Better Outcomes
+Version: 1.0.0
+Authors@R: person("Gregy", "Tuerah", role = c("aut", "cre"))
+Description: R replication workflow for a household fixed-effects analysis of
+    potential BOS exposure and educational outcomes using IFLS data.
+License: MIT
+Encoding: UTF-8
+Imports:
+    dplyr,
+    fixest,
+    ggplot2,
+    haven,
+    kableExtra,
+    knitr,
+    modelsummary,
+    pacman,
+    tidyr
+Suggests:
+    ggrepel,
+    patchwork,
+    rnaturalearth,
+    rnaturalearthhires,
+    scales,
+    sf,
+    stringr
