@@ -45,8 +45,6 @@ sign under the older-cohort and top-tercile-intensity alternatives, but the
 estimates are imprecise; the narrow-cohort-window estimate is negative and
 imprecise.
 
-![Heterogeneity estimates with confidence intervals](Output/Figures/heterogeneity_combined_thesis.png)
-
 ## Repository Contents
 
 | Directory | Contents |
