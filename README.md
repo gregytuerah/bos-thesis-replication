@@ -14,9 +14,11 @@ school operational grant program.
 
 ## Research Question
 
-Is greater potential exposure to Indonesia's BOS program associated with higher
-educational attainment among siblings, particularly in provinces with stronger
-measured implementation intensity?
+The core research question of this thesis is: within the same family, do
+children with greater potential exposure to Indonesia’s BOS program attain
+more schooling and have a higher probability of reaching senior high school
+than their less-exposed siblings, especially in provinces with stronger mea-
+sured BOS intensity?
 
 The analysis uses Indonesia Family Life Survey (IFLS) data and compares
 siblings from the same origin household who differed in potential BOS exposure
