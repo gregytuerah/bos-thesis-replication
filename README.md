@@ -1,6 +1,6 @@
 # Longer Exposure, Better Outcomes
 
-## Replication Package for Evidence from Indonesia's BOS Program
+## Replication Package
 
 **Author:** Gregy Tuerah
 
