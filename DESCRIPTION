@@ -10,18 +10,16 @@ Encoding: UTF-8
 Imports:
     dplyr,
     fixest,
+    ggrepel,
     ggplot2,
     haven,
     kableExtra,
     knitr,
     modelsummary,
     pacman,
-    tidyr
-Suggests:
-    ggrepel,
-    patchwork,
     rnaturalearth,
     rnaturalearthhires,
     scales,
     sf,
-    stringr
+    stringr,
+    tidyr

@@ -71,7 +71,7 @@ and register/download the data through the
 No person-level or household-level derived data are included in this public
 package.
 
-## Reproducing The Tables
+## Reproducing The Results
 
 After obtaining the required IFLS files and placing them in the paths specified
 in [Data/README.md](Data/README.md), run from the repository root:
@@ -79,8 +79,13 @@ in [Data/README.md](Data/README.md), run from the repository root:
 ```r
 install.packages(c(
   "pacman", "haven", "dplyr", "knitr", "kableExtra", "tidyr",
-  "fixest", "modelsummary", "ggplot2"
+  "fixest", "modelsummary", "ggplot2", "sf", "rnaturalearth",
+  "ggrepel", "scales", "stringr"
 ))
+install.packages(
+  "rnaturalearthhires",
+  repos = c("https://ropensci.r-universe.dev", getOption("repos"))
+)
 ```
 
 ```bash
@@ -94,21 +99,14 @@ The core pipeline runs:
 01b_Controls.R
 02_Balance.R
 03_Regression.R
+04_Manuscript_Figures.R
 HTE-Robustness.R
 99_Validate_Reported_Results.R
 ```
 
+The pipeline regenerates the reported empirical tables and manuscript figures.
 The final validation script checks that the regenerated principal estimates and
-sample sizes match the results reported in the paper. Additional scripts
-generate writing-sample and presentation-related figures and are retained for
-transparency.
-
-To regenerate the map and presentation figures retained in the manuscript
-source, install the optional dependencies listed in `DESCRIPTION` and run:
-
-```bash
-Rscript Code/06_PosterAssets.R
-```
+sample sizes match the results reported in the paper.
 
 ## Reported Outputs
 

@@ -14,18 +14,17 @@ modelsummary 2.5.0
 ggplot2 4.0.0
 ```
 
-The supplementary figure-production scripts were tested with:
+The manuscript map-generation step was tested with:
 
 ```text
 sf 1.1.0
 rnaturalearth 1.2.0
 rnaturalearthhires 1.0.0.9000
 ggrepel 0.9.8
-patchwork 1.3.2
 scales 1.4.0
 stringr 1.5.2
 ```
 
-The core dependency list is also declared in `DESCRIPTION`. Because IFLS data
-are accessed locally under RAND's public-use terms, automated cloud execution
-is not enabled for this repository.
+The pipeline dependency list is also declared in `DESCRIPTION`. Because IFLS
+data are accessed locally under RAND's public-use terms, automated cloud
+execution is not enabled for this repository.
