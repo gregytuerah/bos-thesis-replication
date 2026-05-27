@@ -1,6 +1,7 @@
 ##############################################################
 # Project: Master's thesis - Manuscript maps                 #
 # Author: Gregy Tuerah                                       #
+# Date: April 2026                                           #
 ##############################################################
 
 suppressPackageStartupMessages({
