@@ -2,8 +2,10 @@
 
 ## Replication Package for Evidence from Indonesia's BOS Program
 
-**Author:** Gregy Tuerah  
+**Author:** Gregy Tuerah
+
 **Affiliation:** Harris School of Public Policy, University of Chicago
+
 **Paper:** [Longer Exposure, Better Outcomes: Evidence from Indonesia's BOS Program](Paper/longer_exposure_better_outcomes.pdf)
 
 This repository contains the replication code, reported outputs, and manuscript
