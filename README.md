@@ -14,9 +14,7 @@ school operational grant program.
 
 ## Research Question
 
-Within the same family, do children with greater potential exposure to BOS have
-better educational outcomes, particularly in provinces where measured
-implementation intensity was stronger?
+within the same family, do children with greater potential exposure to Indonesia’s BOS program attain more schooling and have a higher probability of reaching senior high school than their less-exposed siblings, especially in provinces with stronger measured BOS intensity?
 
 The analysis uses Indonesia Family Life Survey (IFLS) data and compares
 siblings from the same origin household who differed in potential BOS exposure
